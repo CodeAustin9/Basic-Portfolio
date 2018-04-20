@@ -1,0 +1,184 @@
+body {    
+    font-family: Arial; 'Helvetica Neue', Helvetica, sans-serfif;
+    width: 100%;
+    margin: 0 auto;
+    background-image: url("https://lh3.googleusercontent.com/b1SQsMvJSJN0cWRY6AzmaIQWO3SLSiDxgp2AHAtajUa3C6995XWoqG2ndyJIpNtb-ksMSA=s170")   
+}
+
+header{
+    text-align: center;
+    font-family: 'Georgia', 'Times New Roman', Times, serif; 
+    background-color: teal;
+    border-color: #cccccc;
+    padding: 5px 2px 5px 2px;
+    width: 25%;  
+    height: 70px;
+    display: inline-block;
+    margin-left: 50px;
+}
+box Amy Austin{
+    bottom: 30px;
+} 
+.navlinks{
+    margin-right: 10px;
+}
+.navbox {
+    text-align: right;
+    padding: 0;
+    background: white;
+    width: 68%;
+    height: 80px;
+    float: right;
+    top: 0;
+    margin-right: 50px;
+}
+
+header::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+nav li{
+    display: inline-block;
+    margin-left: 70px;
+    padding-top: 23px;
+    position: relative;
+}
+
+nav a{
+    color: grey;
+    text-decoration: none;
+    text-transform: uppercase;
+    float: right;
+}
+
+nav a:hover{
+    color: #000;
+}
+
+nav a::before{
+    content:"";
+    display: block;
+    height: 5px;
+    width: 100%;
+    
+}
+
+.my-photo{
+    height: 300px;
+    float: left;
+    margin: 0 15px 0 15px;
+    
+}
+.main-box{
+    font-family: Arial; 'Helvetica Neue', Helvetica, sans-serfif;
+    margin: 0 auto ;
+    border: 1px solid black;
+    width: 960px;
+    height: 500px;
+    padding: 20px;
+    background-color: white;
+    margin-top: 80px;
+          
+}
+
+.image main-box2{
+        
+    margin: 20px auto ;
+    border: 1px solid black;
+    width: 800px;
+    height: 100%;
+    padding: 20px;
+    background-color: white;
+    margin-top: 80px;  
+    z-index: 1;
+}
+headerdiv{
+    padding: 10px;
+    text-align: left;
+    background:green;
+    color: black
+}
+
+input{
+    width: 100%; 
+    
+}
+.message-box{
+    height: 250px;
+}
+button{
+    background-color: teal;
+    border-width: 0px;
+    color: white;
+}
+.portfolio-img{
+        position: relative;
+        width: 200px;
+        height: 200px;
+        margin: 2% 5%;
+        index: 1;
+
+    }
+.image-title{    
+      width: 200px;
+      
+      margin: 0% 2% 5% 5%;
+      background: teal;
+      z-index: 2;
+
+  }  
+
+a href {
+    color: black;
+    font-size: 20px;
+    float: right;
+}
+#doc3{
+    margin: auto 10px;
+    width: auto;
+    height: 2000px;
+    background-color: white;
+}
+h2{
+    color: teal;
+}
+p{
+    color: #77777;
+}
+h1{
+}
+link {
+    float: left;
+}
+
+
+.navbar a.right {
+    float: left;
+}
+.navbar a:hover {
+    background-color: black;
+    color: black;
+}
+
+
+.clearfix::after {
+	content: "";
+	display: block;
+	clear: both;
+}
+
+.footer{
+    text-align: center;
+    display: block;
+    background: teal;
+    background-size: 150%;
+    
+
+}
